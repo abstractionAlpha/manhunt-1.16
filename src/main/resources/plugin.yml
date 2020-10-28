@@ -1,0 +1,13 @@
+name: ManHunt
+version: ${project.version}
+main: com.abstractionalpha.minecraft.plugins.manhunt.ManHunt
+api-version: 1.16
+authors: [ abstractionAlpha ]
+description: Minecraft Manhunt plugin meant to be an effective simulation of the Dream Team manhunt without being very resource-dependent.
+website: abstractionalpha.com
+commands:
+  manhunt:
+    description: Root command. Establishes speedrunner object.
+    usage: /<command>
+    permission: manhunt.admin
+    permission-message: You do not have <permission>.
